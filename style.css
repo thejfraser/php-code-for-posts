@@ -1,0 +1,95 @@
+ul.phpcfp-menu {
+	display:block;
+	overflow:hidden;
+	width:100%;
+}
+
+li.phpcfp-menuitem {
+	background: #fefefe;
+	border-collapse: collapse;
+	border:1px #333 solid;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	float:left;
+	padding:10px;
+	text-align:center;
+
+}
+
+li.phpcfp-menuitem a{
+	display:block;
+	font-size:16px;
+	line-height:26px;
+	text-decoration:none;
+
+}
+
+li.phpcfp-menuitem>a.activetab-head {
+	text-decoration:underline;
+}
+
+li.phpcfp-menuitem.other {
+	background: #e73827;
+}
+
+li.phpcfp-menuitem.new-snippet {
+	background: #1186e8;
+}
+
+li.phpcfp-menuitem.new-snippet a,
+li.phpcfp-menuitem.other a {
+	color:white;
+}
+
+li.phpcfp-menuitem.donate {
+	background: #72aa00;
+}
+
+li.phpcfp-menuitem.donate h3 {
+	color:#fff;
+	line-height:26px;
+	margin:0;
+}
+li.phpcfp-menuitem.donate {
+	padding-right:110px;
+	position:relative;
+}
+li.phpcfp-menuitem.donate img{
+	position:absolute;
+}
+li.phpcfp-menuitem.donate input[type=image] {
+	position:absolute;
+	right:0;
+	top:5px;
+}
+
+.phpcfp-tabs h3 {
+	border-bottom:3px #ccc double;
+	font-size:24px;
+	line-height:18px;
+	margin-bottom:16px;
+	overflow:visible;
+}
+
+.phpcfp-multisite-setup {
+	*zoom:1;
+	background: #ffffff;
+	background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	border:1px #e5e5e5 solid;
+	display:inline;
+	display:inline-block;
+	margin:10px;
+	overflow:hidden;
+	padding:10px;
+}
+.phpcfp-multisite-setup .ttl {
+	font-size:18px;
+	border-bottom:1px #e5e5e5 solid;
+	margin-top:0;
+}
